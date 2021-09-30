@@ -1,0 +1,24 @@
+{
+  "locust_data": [
+    {
+      "end_point": "/adiraOnePartner/orders/api/order/generate/orderid",
+      "source": "/locust-tasks/data/adira_synthetic_order_id_.csv"
+    },
+    {
+      "end_point": "/adiraOnePartner/orders/api/order/save-order",
+      "source": "/locust-tasks/data/adira_synthetic_save_order_1631004974.csv"
+    },
+    {
+      "end_point": "/adiraOnePartner/orders/api/order/save-unit",
+      "source": "/locust-tasks/data/adira_synthetic_save-unit_1629453084.csv"
+    },
+    {
+      "end_point": "/adiraOnePartner/orders/api/order/save-domisili",
+      "source": "/locust-tasks/data/adira_synthetic_domicili_1631600960.csv"
+    },
+    {
+      "end_point": "/adiraOnePartner/orders/api/order/save-customer",
+      "source": "/locust-tasks/data/adira_synthetic_save_customer_1629452925.csv"
+    }
+  ]
+}
